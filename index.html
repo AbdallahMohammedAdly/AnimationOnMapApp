@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"  href="css/output.css" >
+  <!-- npx @tailwindcss/cli -i ./css/style.css -o ./css/output.css --watch    -->
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <title>booking</title>
+</head>
+
+<body>
+
+
+  <section>
+
+
+    <div class=" grid grid-cols-10 ">
+
+      <div class="map col-span-6">
+        <div id="map" style="width: 100%; height: 100vh;"></div>
+
+      </div>
+
+      <div class="filtercard col-span-2 ">
+        <div class="">
+          <ul>
+            <li>
+              <div class="card flex p-2 shadow-lg bg-white rounded-lg mb-2">
+                <div class="card-left mx-1">
+                  <div class="rate name flex justify-between">
+                    <div class="rate">
+                      <span class="text-yellow-500">⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <h1 class="text-1xl font-bold">Hotel Name</h1>
+
+                  </div>
+                  <div class="tag">
+                    <i>🏷️</i>
+                  </div>
+                  <div class="distanse">
+                    <i>📍</i>
+                    <span class="text-gray-500">2.5 km</span>
+
+                  </div>
+                  <div class="ratenumber flex ">
+                    <div class="numberofrate">
+                      <p><span>beautiful</span></p>
+                      <p class="text-gray-500"><span>951</span>number of rate </p>
+                    </div>
+                    <div class="numberofallrate p-2 mx-1.5   bg-blue-400  ">
+                      <span>9.1</span>
+                    </div>
+                  </div>
+                  <div class="location">
+                    <p class="text-gray-500">Cairo, Egypt</p>
+                  </div>
+                  <div>
+                    <p>اضف تاريخ لتطلع ع السعر </p>
+                  </div>
+                </div>
+                <div class="card-right">
+                  <figure>
+                    <img class="h-full" src="https://placehold.co/600x800" alt="">
+                  </figure>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card flex p-2 shadow-lg bg-white rounded-lg mb-2">
+                <div class="card-left mx-1">
+                  <div class="rate name flex justify-between">
+                    <div class="rate">
+                      <span class="text-yellow-500">⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <h1 class="text-1xl font-bold">Hotel Name</h1>
+
+                  </div>
+                  <div class="tag">
+                    <i>🏷️</i>
+                  </div>
+                  <div class="distanse">
+                    <i>📍</i>
+                    <span class="text-gray-500">2.5 km</span>
+
+                  </div>
+                  <div class="ratenumber flex ">
+                    <div class="numberofrate">
+                      <p><span>beautiful</span></p>
+                      <p class="text-gray-500"><span>951</span>number of rate </p>
+                    </div>
+                    <div class="numberofallrate p-2 mx-1.5   bg-blue-400  ">
+                      <span>9.1</span>
+                    </div>
+                  </div>
+                  <div class="location">
+                    <p class="text-gray-500">Cairo, Egypt</p>
+                  </div>
+                  <div>
+                    <p>اضف تاريخ لتطلع ع السعر </p>
+                  </div>
+                </div>
+                <div class="card-right">
+                  <figure>
+                    <img class="h-full" src="https://placehold.co/600x800" alt="">
+                  </figure>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="card flex p-2 shadow-lg bg-white rounded-lg mb-2">
+                <div class="card-left mx-1">
+                  <div class="rate name flex justify-between">
+                    <div class="rate">
+                      <span class="text-yellow-500">⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <h1 class="text-1xl font-bold">Hotel Name</h1>
+
+                  </div>
+                  <div class="tag">
+                    <i>🏷️</i>
+                  </div>
+                  <div class="distanse">
+                    <i>📍</i>
+                    <span class="text-gray-500">2.5 km</span>
+
+                  </div>
+                  <div class="ratenumber flex ">
+                    <div class="numberofrate">
+                      <p><span>beautiful</span></p>
+                      <p class="text-gray-500"><span>951</span>number of rate </p>
+                    </div>
+                    <div class="numberofallrate p-2 mx-1.5   bg-blue-400  ">
+                      <span>9.1</span>
+                    </div>
+                  </div>
+                  <div class="location">
+                    <p class="text-gray-500">Cairo, Egypt</p>
+                  </div>
+                  <div>
+                    <p>اضف تاريخ لتطلع ع السعر </p>
+                  </div>
+                </div>
+                <div class="card-right">
+                  <figure>
+                    <img class="h-full" src="https://placehold.co/600x800" alt="">
+                  </figure>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="card flex p-2 shadow-lg bg-white rounded-lg mb-2">
+                <div class="card-left mx-1">
+                  <div class="rate name flex justify-between">
+                    <div class="rate">
+                      <span class="text-yellow-500">⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <h1 class="text-1xl font-bold">Hotel Name</h1>
+
+                  </div>
+                  <div class="tag">
+                    <i>🏷️</i>
+                  </div>
+                  <div class="distanse">
+                    <i>📍</i>
+                    <span class="text-gray-500">2.5 km</span>
+
+                  </div>
+                  <div class="ratenumber flex ">
+                    <div class="numberofrate">
+                      <p><span>beautiful</span></p>
+                      <p class="text-gray-500"><span>951</span>number of rate </p>
+                    </div>
+                    <div class="numberofallrate p-2 mx-1.5   bg-blue-400  ">
+                      <span>9.1</span>
+                    </div>
+                  </div>
+                  <div class="location">
+                    <p class="text-gray-500">Cairo, Egypt</p>
+                  </div>
+                  <div>
+                    <p>اضف تاريخ لتطلع ع السعر </p>
+                  </div>
+                </div>
+                <div class="card-right">
+                  <figure>
+                    <img class="h-full" src="https://placehold.co/600x800" alt="">
+                  </figure>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="card flex p-2 shadow-lg bg-white rounded-lg mb-2">
+                <div class="card-left mx-1">
+                  <div class="rate name flex justify-between">
+                    <div class="rate">
+                      <span class="text-yellow-500">⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <h1 class="text-1xl font-bold">Hotel Name</h1>
+
+                  </div>
+                  <div class="tag">
+                    <i>🏷️</i>
+                  </div>
+                  <div class="distanse">
+                    <i>📍</i>
+                    <span class="text-gray-500">2.5 km</span>
+
+                  </div>
+                  <div class="ratenumber flex ">
+                    <div class="numberofrate">
+                      <p><span>beautiful</span></p>
+                      <p class="text-gray-500"><span>951</span>number of rate </p>
+                    </div>
+                    <div class="numberofallrate p-2 mx-1.5   bg-blue-400  ">
+                      <span>9.1</span>
+                    </div>
+                  </div>
+                  <div class="location">
+                    <p class="text-gray-500">Cairo, Egypt</p>
+                  </div>
+                  <div>
+                    <p>اضف تاريخ لتطلع ع السعر </p>
+                  </div>
+                </div>
+                <div class="card-right">
+                  <figure>
+                    <img class="h-full" src="https://placehold.co/600x800" alt="">
+                  </figure>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="filter col-span-2">
+
+        <div>
+          <p>التصنيف حسب :
+          </p>
+          <div class="card-filters">
+            <ul>
+              <li class="mb-2  shadow-lg p-2.5 ">
+                <div>test</div>
+
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div>
+              </li>
+              <li class="mb-2  shadow-lg p-2.5 ">
+                <div>test</div>
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div>
+              </li>
+              <li class="mb-2  shadow-lg p-2.5 ">
+                <div>test</div>
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div>
+              </li>
+              <li class="mb-2  shadow-lg p-2.5 ">
+                <div>test</div>
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div>
+              </li>
+              <li class="mb-2  shadow-lg p-2.5 ">
+                <div>test</div>
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div>
+              </li>
+              <li class="mb-2  shadow-lg p-2.5 ">
+                <div>test</div>
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div>
+              </li>
+              <li class="mb-2  shadow-lg p-2.5 ">
+                <div>test</div>
+
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div>
+              </li>
+              <li class="mb-2  shadow-lg p-2.5 ">
+                <div>test</div>
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div>
+              </li>
+              <li class="mb-2  shadow-lg p-2.5 ">
+                <div>test</div>
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div>
+              </li>
+              <li class="mb-2  shadow-lg p-2.5 ">
+                <div>test</div>
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div>
+              </li>
+              <li class="mb-2  shadow-lg p-2.5 ">
+                <div>test</div>
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div>
+              </li>
+              <li class="mb-2  shadow-lg p-2.5 ">
+                <div>test</div>
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div class="mb-2 ">
+                <div class="flex justify-between w-full ">
+                  <div>
+                    <p>
+                      132
+                    </p>
+                  </div>
+                  <div>
+                    <label for="filter1">المنتجعات</label>
+                    <input type="checkbox" id="filter1" name="filter1" value="filter1">
+                  </div>
+
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </section>
+
+
+
+
+
+
+  <script src="js/main.js"></script>
+<script   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIVbAHhx0nwvlKkQ6ON7ClVyqp_kO2gGE&callback=initMap"></script>
+
+</body>
+
+</html>
